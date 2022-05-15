@@ -1,39 +1,40 @@
 {
-  "name": "cse341-code",
+  "name": "cse341-assignments",
   "version": "1.0.0",
-  "description": "code to give to students for the cse341 course",
-  "main": "server.js",
+  "description": "Assignments",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
+    "start": "nodemon app.js",
     "lint": "eslint .",
+    "swagger": "node ./swagger.js",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
+    "url": "git+https://github.com/chikaberry/CSE341-assignments.git"
   },
-  "author": "",
+  "author": "Chika",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
+    "url": "https://github.com/chikaberry/CSE341-assignments/issues"
   },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
+  "homepage": "https://github.com/chikaberry/CSE341-assignments#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "express": "^4.17.3",
     "mongodb": "^4.5.0",
-    "prettier": "^2.6.2"
+    "swagger-ui-express": "^4.4.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "nodemon": "^2.0.16"
-  },
-  "keywords": []
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2",
+    "swagger-autogen": "^2.21.1"
+  }
 }
