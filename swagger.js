@@ -6,8 +6,8 @@ const doc = {
     description: 'Contacts Project',
   },
  //test for localhost host: 'localhost:3000',
-  host: 'personal-test1.herokuapp.com',
-    // host:'localhost:8080',
+//   host: 'personal-test1.herokuapp.com',
+    host:'localhost:8080',
   schemes: ['http', 'https'],
 };
 

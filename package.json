@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chikaberry/CSE341-assignments.git"
+    "url": "git+https:https://github.com/sadiqneymaA1/CSE341-node"
   },
   "author": "Chika",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chikaberry/CSE341-assignments/issues"
+    "url": "https://github.com/sadiqneymaA1/CSE341-node"
   },
-  "homepage": "https://github.com/chikaberry/CSE341-assignments#readme",
+  "homepage": "https://github.com/sadiqneymaA1/CSE341-node",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
